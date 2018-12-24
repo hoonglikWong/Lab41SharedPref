@@ -21,7 +21,7 @@ public class SettingsActivity extends AppCompatActivity {
         editTextname = findViewById(R.id.editTextName);
         radioGroupGender = findViewById(R.id.radioGroupGender);
         radioButtonMale = findViewById(R.id.radioButtonMale);
-        radioButtonMale = findViewById(R.id.radioButtonFemale);
+        radioButtonFemale = findViewById(R.id.radioButtonFemale);
 
         sharedPreferences = getSharedPreferences(FILE_NAME, MODE_PRIVATE);
         String name;
